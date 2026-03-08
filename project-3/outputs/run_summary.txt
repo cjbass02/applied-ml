@@ -1,0 +1,21 @@
+Project 3 KMNIST experiment run
+
+Classification type: multiclass
+Recommended loss: sparse_categorical_crossentropy
+Reason for 10 output nodes: one softmax probability per KMNIST class
+
+MLP experiments run: 48
+Best MLP config: mlp_h2_u64_32_rmsprop_e15
+Best MLP validation accuracy: 0.9448
+Best MLP test accuracy: 0.8618
+
+CNN experiments run: 24
+Best CNN config: cnn_c32_64_k5_pool_adam_e15
+Best CNN validation accuracy: 0.9843
+Best CNN test accuracy: 0.9471
+
+Saved outputs:
+- figures/: sample grid, confusion matrices, training curves
+- metrics/: dataset summary, experiment tables, evaluation JSON, training histories
+- models/: saved Keras models
+- summaries/: model architecture summaries

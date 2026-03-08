@@ -1,0 +1,38 @@
+{
+  "train_images_shape": [
+    60000,
+    28,
+    28
+  ],
+  "train_labels_shape": [
+    60000
+  ],
+  "test_images_shape": [
+    10000,
+    28,
+    28
+  ],
+  "test_labels_shape": [
+    10000
+  ],
+  "num_classes": 10,
+  "image_shape": [
+    28,
+    28
+  ],
+  "class_names": [
+    "o",
+    "ki",
+    "su",
+    "tsu",
+    "na",
+    "ha",
+    "ma",
+    "ya",
+    "re",
+    "wo"
+  ],
+  "classification_type": "multiclass",
+  "recommended_loss": "sparse_categorical_crossentropy",
+  "default_metric": "accuracy"
+}

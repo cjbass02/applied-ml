@@ -1,0 +1,197 @@
+{
+  "overall_accuracy": 0.8618,
+  "per_class_accuracy": [
+    {
+      "class_id": 0,
+      "class_name": "o",
+      "accuracy": 0.909,
+      "correct": 909,
+      "total": 1000
+    },
+    {
+      "class_id": 1,
+      "class_name": "ki",
+      "accuracy": 0.847,
+      "correct": 847,
+      "total": 1000
+    },
+    {
+      "class_id": 2,
+      "class_name": "su",
+      "accuracy": 0.75,
+      "correct": 750,
+      "total": 1000
+    },
+    {
+      "class_id": 3,
+      "class_name": "tsu",
+      "accuracy": 0.911,
+      "correct": 911,
+      "total": 1000
+    },
+    {
+      "class_id": 4,
+      "class_name": "na",
+      "accuracy": 0.837,
+      "correct": 837,
+      "total": 1000
+    },
+    {
+      "class_id": 5,
+      "class_name": "ha",
+      "accuracy": 0.89,
+      "correct": 890,
+      "total": 1000
+    },
+    {
+      "class_id": 6,
+      "class_name": "ma",
+      "accuracy": 0.931,
+      "correct": 931,
+      "total": 1000
+    },
+    {
+      "class_id": 7,
+      "class_name": "ya",
+      "accuracy": 0.802,
+      "correct": 802,
+      "total": 1000
+    },
+    {
+      "class_id": 8,
+      "class_name": "re",
+      "accuracy": 0.864,
+      "correct": 864,
+      "total": 1000
+    },
+    {
+      "class_id": 9,
+      "class_name": "wo",
+      "accuracy": 0.877,
+      "correct": 877,
+      "total": 1000
+    }
+  ],
+  "confusion_matrix": [
+    [
+      909,
+      7,
+      2,
+      3,
+      26,
+      13,
+      5,
+      15,
+      15,
+      5
+    ],
+    [
+      6,
+      847,
+      10,
+      6,
+      16,
+      7,
+      59,
+      8,
+      22,
+      19
+    ],
+    [
+      13,
+      61,
+      750,
+      48,
+      12,
+      21,
+      34,
+      7,
+      28,
+      26
+    ],
+    [
+      6,
+      19,
+      20,
+      911,
+      2,
+      14,
+      16,
+      1,
+      7,
+      4
+    ],
+    [
+      33,
+      30,
+      10,
+      9,
+      837,
+      9,
+      30,
+      12,
+      16,
+      14
+    ],
+    [
+      6,
+      14,
+      24,
+      12,
+      6,
+      890,
+      25,
+      1,
+      10,
+      12
+    ],
+    [
+      3,
+      21,
+      10,
+      10,
+      8,
+      5,
+      931,
+      5,
+      2,
+      5
+    ],
+    [
+      33,
+      27,
+      7,
+      6,
+      19,
+      6,
+      53,
+      802,
+      16,
+      31
+    ],
+    [
+      10,
+      31,
+      8,
+      37,
+      4,
+      15,
+      27,
+      0,
+      864,
+      4
+    ],
+    [
+      8,
+      17,
+      12,
+      5,
+      25,
+      2,
+      28,
+      4,
+      22,
+      877
+    ]
+  ]
+}
